@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>WindPro</title>
+</head>
+<body>
+    <header class="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-blue-900 md:mx-auto md:flex-row md:items-center">
+        <a href="index.html" class="flex items-center whitespace-nowrap text-2xl font-black">
+          <span class="mr-2 text-4xl text-blue-500">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.925 16.875Q5.2 16.225 4.1 14.713Q3 13.2 3 11.25q0-1.975.938-3.513Q4.875 6.2 6 5.15q1.125-1.05 2.062-1.6L9 3v2.475q0 .625.45 1.062q.45.438 1.075.438q.35 0 .65-.15q.3-.15.5-.425L12 6q.95.55 1.625 1.35t1.025 1.8l-1.675 1.675q-.05-.6-.287-1.175q-.238-.575-.638-1.05q-.35.2-.738.287q-.387.088-.787.088q-1.1 0-1.987-.612Q7.65 7.75 7.25 6.725q-.95.925-1.6 2.062Q5 9.925 5 11.25q0 .775.275 1.462q.275.688.75 1.213q.05-.5.287-.938q.238-.437.588-.787L9 10.1l2.15 2.1q.05.05.1.125t.1.125l-1.425 1.425q-.05-.075-.087-.125q-.038-.05-.088-.1L9 12.925l-.7.7q-.125.125-.212.287q-.088.163-.088.363q0 .3.175.537q.175.238.45.363ZM9 10.1Zm0 0ZM7.4 22L6 20.6L19.6 7L21 8.4L17.4 12H21v2h-5.6l-.5.5l1.5 1.5H21v2h-2.6l2.1 2.1l-1.4 1.4l-2.1-2.1V22h-2v-4.6l-1.5-1.5l-.5.5V22h-2v-3.6Z" /></svg>
+          </span>
+          WindPro
+        </a>
+        <input type="checkbox" class="peer hidden" id="navbar-open" />
+        <label class="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
+          <span class="sr-only">Toggle Navigation</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linec
+        <input type="checap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </label>
+        <nav aria-label="Header Navigation" class="flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all peer-checked:mt-8 peer-checked:max-h-56 md:ml-24 md:max-h-full md:flex-row md:items-start">
+          <ul class="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
+            <li class="font-bold md:mr-12"><a href="abot.html">About</a></li>
+            <li class="md:mr-12"><a href="Pricing.html">Pricing</a></li>
+            <li class="md:mr-12"><a href="Features.html">Features</a></li>
+            <li class="md:mr-12"><a href="blog.html">Blog</a></li>
+            <li class="md:mr-12">
+              <button class="rounded-full border-2 border-blue-900 px-6 py-1 text-blue-900 transition-colors hover:bg-blue-900 hover:text-white"><li><a href="login.html">Login</a></li></button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+
+
+
+      <section class="mx-auto flex max-w-lg flex-col px-4 py-10 lg:max-w-screen-xl lg:flex-row">
+        <div class="max-w-md pr-20 lg:pt-28">
+          <img src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/601074ed0f05cd25097215a4_6002086f72b7277e1f01d682_ryan-morrison-illustration-1.png" alt="" />
+        </div>
+        <div class="">
+          <div class="mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-indigo-600 text-white shadow-lg shadow-indigo-600/20">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
+            </svg>
+          </div>
+          <h2 class="mb-10 max-w-lg text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">A <span class="text-indigo-600">revolutionary</span> way to build websites</h2>
+          <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2">
+            <div>
+              <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Launch Websites in minutes</p>
+              <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+            </div>
+            <div>
+              <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Never miss deadlines</p>
+              <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+            </div>
+            <div>
+              <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Super Intuitive</p>
+              <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+            </div>
+            <div>
+              <p class="mb-6 border-l-4 border-indigo-600 pl-4 text-2xl leading-10">Speedy Websites</p>
+              <p class="text-lg text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nihil reprehenderit laboriosam, exercitationem consectetur deserunt aliquam ab maiores!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+<style>
+  :root {
+  font-family: 'IBM Plex Sans','Merriweather';
+  }
+</style> 
+
+
+<div class="mx-auto md:py-20 w-screen mb-10 bg-slate-50 px-5 py-10 text-blue-800">
+  <div class="mx-auto max-w-4xl lg:max-w-5xl lg:flex">
+    <div class="md:flex lg:w-1/4 md:flex-col px-5">
+      <div class="w-full flex-grow text-left">
+        <h1 class="mb-5 text-4xl font-bold">Pricing</h1>
+        <h3 class="text-md mb-5 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit repellat dignissimos</h3>
+      </div>
+      <div class="mb-2 w-full">
+        <p class="text-xs">*Please read the terms.</p>
+      </div>
+    </div>
+    <div class="lg:w-3/4">
+      <div class="mx-auto max-w-4xl md:flex">
+        <div class="mx-auto mb-3 w-full rounded-md bg-white px-8 py-8 shadow-lg shadow-blue-100 md:my-2 md:flex md:w-1/3 md:max-w-none md:flex-col md:px-10 md:py-10">
+          <div class="w-full flex-grow">
+            <h2 class="mb-4 text-center font-bold uppercase">PERSONAL</h2>
+            <h3 class="mb-5 text-center text-4xl font-bold">$25<span class="text-sm">/mo</span></h3>
+            <ul class="mb-8 text-sm">
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Lorem ipsum
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Dolor sit amet
+              </li>
+            </ul>
+          </div>
+          <div class="w-full">
+            <button class="w-full whitespace-nowrap rounded-md bg-gray-500 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700">Free Trial</button>
+          </div>
+        </div>
+        <div class="mx-auto mb-3 w-full rounded-md bg-white px-8 py-8 shadow-lg shadow-blue-100 md:relative md:z-50 md:-mx-3 md:mb-0 md:flex md:w-1/3 md:max-w-none md:flex-col md:px-10 md:py-10">
+          <div class="w-full flex-grow">
+            <h2 class="mb-4 text-center font-bold uppercase">TEAM</h2>
+            <h3 class="mb-5 text-center text-4xl font-bold md:text-5xl">$75<span class="text-sm">/mo</span></h3>
+            <ul class="mb-8 text-sm">
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Lorem ipsum
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Dolor sit amet
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Consectetur
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Adipisicing
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Elit repellat
+              </li>
+            </ul>
+          </div>
+          <div class="w-full">
+            <button class="w-full whitespace-nowrap rounded-md bg-blue-600 px-10 py-2 font-bold text-white transition-colors hover:bg-blue-700">Free Trial</button>
+          </div>
+        </div>
+        <div class="mx-auto mb-3 w-full rounded-md bg-white px-8 py-8 shadow-lg shadow-blue-100 md:my-2 md:flex md:w-1/3 md:max-w-none md:flex-col md:px-10 md:py-10">
+          <div class="w-full flex-grow">
+            <h2 class="mb-4 text-center font-bold uppercase">PRO</h2>
+            <h3 class="mb-5 text-center text-4xl font-bold">$250<span class="text-sm">/mo</span></h3>
+            <ul class="mb-8 text-sm">
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Lorem ipsum
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Dolor sit amet
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Consectetur
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Adipisicing
+              </li>
+              <li class="flex items-center leading-tight">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-blue-600 mr-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Much more...
+              </li>
+            </ul>
+          </div>
+          <div class="w-full">
+            <button class="w-full whitespace-nowrap rounded-md bg-gray-500 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700">Free Trial</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="bg-white py-6 sm:py-8 lg:py-12">
+    <div class="mx-auto max-w-screen-xl px-4 md:px-8"> 
+      <!-- Heading -->
+      <div class="mb-10 md:mb-16">
+        <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Most Recent Posts</h2>
+  
+        <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+      </div>
+      <!-- /Heading -->
+      <div class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
+        <!-- Article -->
+        <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+          <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+            <img src="https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col gap-2">
+            <span class="text-sm text-gray-400">April 2, 2022</span>
+  
+            <h2 class="text-xl font-bold text-gray-800">
+              <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">The Pines and the Mountains</a>
+            </h2>
+  
+            <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+  
+            <div>
+              <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- /Article -->
+        <!-- Article -->
+        <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+          <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+            <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col gap-2">
+            <span class="text-sm text-gray-400">April 2, 2022</span>
+  
+            <h2 class="text-xl font-bold text-gray-800">
+              <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">The Coding Mania</a>
+            </h2>
+  
+            <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+  
+            <div>
+              <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- /Article -->
+        <!-- Article -->
+        <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+          <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+            <img src="https://images.unsplash.com/photo-1496395031280-4201b0e022ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col gap-2">
+            <span class="text-sm text-gray-400">April 2, 2022</span>
+  
+            <h2 class="text-xl font-bold text-gray-800">
+              <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">Architectural Warfare</a>
+            </h2>
+  
+            <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+  
+            <div>
+              <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- /Article -->
+        <!-- Article -->
+        <article class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
+          <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+            <img src="https://images.unsplash.com/photo-1510081887155-56fe96846e71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80" loading="lazy" alt="" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          </a>
+  
+          <div class="flex flex-col gap-2">
+            <span class="text-sm text-gray-400">April 2, 2022</span>
+  
+            <h2 class="text-xl font-bold text-gray-800">
+              <a href="#" class="transition duration-100 hover:text-rose-500 active:text-rose-600">Blues in Architechture</a>
+            </h2>
+  
+            <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint necessitatibus molestias explicabo.</p>
+  
+            <div>
+              <a href="#" class="font-semibold text-rose-500 transition duration-100 hover:text-rose-600 active:text-rose-700">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- /Article -->
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="">
+    <div class="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 sm:px-20 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
+      <div class="max-w-sm">
+        <div class="mb-6 flex h-10 items-center space-x-2">
+          <img class="h-full object-contain" src="/images/logo-circle.png" alt="" />
+          <span class="text-lg font-medium">WindPro</span>
+        </div>
+        <div class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad a officia ea expedita!</div>
+      </div>
+      <div class="">
+        <div class="mt-4 mb-2 font-medium xl:mb-4">Guides</div>
+        <nav aria-label="Guides Navigation" class="text-gray-500">
+          <ul class="space-y-3">
+            <li><a class="hover:text-blue-600 hover:underline" href="#">How to make a footer</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Designing your app</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Getting help from the community</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Pricing vs Hourly Rate</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="">
+        <div class="mt-4 mb-2 font-medium xl:mb-4">Links</div>
+        <nav aria-label="Footer Navigation" class="text-gray-500">
+          <ul class="space-y-3">
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Pricing</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Demo</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Press</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Support Hub</a></li>
+            <li><a class="hover:text-blue-600 hover:underline" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="">
+        <div class="mt-4 mb-2 font-medium xl:mb-4">Support Us On Tiktok</div>
+        <div class="flex flex-col">
+          <div class="mb-4">
+            <a href="https://www.tiktok.com/@w.duagbor1" target="_blank"><img src="download.png" alt="" style="width: 50px; height: 50px;" width="50" height="50" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t">
+      <div class="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-gray-500 sm:px-20 lg:flex-row lg:justify-between lg:text-left xl:px-10">
+        <p class="">© 2024 WindPro | All Rights Reserved</p>
+        <p class="-order-1 sm:order-none"></p>
+        <p class="">
+          <a class="" href="#">Privacy Policy</a>
+          <span>|</span>
+          <a class="" href="#">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
